@@ -54,17 +54,17 @@ or [inline helpers](https://handlebarsjs.com/#helpers)
 {{/and}}
 ```
 
-* [Base](#Base)
-* [Array](#Array)
-* [Json](#Json)
-* [Math](#Math)
-* [Number](#Number)
-* [Object](#Object)
-* [String](#String)
+* [Base](#base)
+* [Array](#array)
+* [Json](#json)
+* [Math](#math)
+* [Number](#number)
+* [Object](#object)
+* [String](#string)
 
 #### Base
 
-* get
+* [get]()
 
   **Params:**
 
@@ -87,7 +87,7 @@ or [inline helpers](https://handlebarsjs.com/#helpers)
   // returns: ['2']
   ```
 
-* set
+* [set]()
 
   **Params:**
 
@@ -105,7 +105,7 @@ or [inline helpers](https://handlebarsjs.com/#helpers)
   // a: { a: '1' }
   ```
 
-* default
+* [default]()
 
   **Params:**
 
@@ -125,7 +125,7 @@ or [inline helpers](https://handlebarsjs.com/#helpers)
   // returns: 2
   ```
 
-* and
+* [and]()
 
   **Params:**
 
@@ -143,7 +143,7 @@ or [inline helpers](https://handlebarsjs.com/#helpers)
   {{/and}}
   ```
 
-* or
+* [or]()
 
   **Params:**
 
@@ -161,7 +161,7 @@ or [inline helpers](https://handlebarsjs.com/#helpers)
   {{/or}}
   ```
 
-* isEmpty
+* [isEmpty]()
 
   **Params:**
 
@@ -179,7 +179,7 @@ or [inline helpers](https://handlebarsjs.com/#helpers)
   {{/isEmpty}}
   ```
 
-* eq
+* [eq]()
 
   **Params:**
 
@@ -197,7 +197,7 @@ or [inline helpers](https://handlebarsjs.com/#helpers)
   {{/eq}}
   ```
 
-* unlessEq
+* [unlessEq]()
 
   **Params:**
 
@@ -215,7 +215,7 @@ or [inline helpers](https://handlebarsjs.com/#helpers)
   {{/unlessEq}}
   ```
 
-* gt
+* [gt]()
 
   **Params:**
 
@@ -233,7 +233,7 @@ or [inline helpers](https://handlebarsjs.com/#helpers)
   {{/gt}}
   ```
 
-* gte
+* [gte]()
 
   **Params:**
 
@@ -251,7 +251,7 @@ or [inline helpers](https://handlebarsjs.com/#helpers)
   {{/gte}}
   ```
 
-* lt
+* [lt]()
 
   **Params:**
 
@@ -269,7 +269,7 @@ or [inline helpers](https://handlebarsjs.com/#helpers)
   {{/lt}}
   ```
 
-* lte
+* [lte]()
 
   **Params:**
 
@@ -287,7 +287,7 @@ or [inline helpers](https://handlebarsjs.com/#helpers)
   {{/lte}}
   ```
 
-* is
+* [is]()
 
   **Params:**
 
@@ -305,7 +305,7 @@ or [inline helpers](https://handlebarsjs.com/#helpers)
   {{/is}}
   ```
 
-* isnt
+* [isnt]()
 
   **Params:**
 
@@ -323,7 +323,7 @@ or [inline helpers](https://handlebarsjs.com/#helpers)
   {{/isnt}}
   ```
 
-* not
+* [not]()
 
   **Params:**
 
@@ -339,7 +339,7 @@ or [inline helpers](https://handlebarsjs.com/#helpers)
   {{/not}}
   ```
 
-* encodeURI
+* [encodeURI]()
 
   **Params:**
 
@@ -356,7 +356,7 @@ or [inline helpers](https://handlebarsjs.com/#helpers)
   // returns: '%25'  
   ```
 
-* decodeURI
+* [decodeURI]()
 
   **Params:**
 
@@ -373,7 +373,7 @@ or [inline helpers](https://handlebarsjs.com/#helpers)
   // returns: '%'  
   ```
 
-* encodeURIComponent
+* [encodeURIComponent]()
 
   **Params:**
 
@@ -390,7 +390,7 @@ or [inline helpers](https://handlebarsjs.com/#helpers)
   // returns: '%3F'
   ```
 
-* decodeURIComponent
+* [decodeURIComponent]()
 
   **Params:**
 
@@ -411,22 +411,22 @@ or [inline helpers](https://handlebarsjs.com/#helpers)
 
 Supported functions:
 
-* Array.isArray
-* Array.prototype.concat
-* Array.prototype.pop
-* Array.prototype.push
-* Array.prototype.shift
-* Array.prototype.unshift
-* Array.prototype.slice
-* Array.prototype.splice
-* Array.prototype.includes
-* Array.prototype.indexOf
-* Array.prototype.join
-* Array.prototype.reverse
-* Array.prototype.sort
-* Array.prototype.lastIndexOf
-* Array.prototype.copyWithin
-* Array.prototype.fill
+* [Array.isArray](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray)
+* [Array.prototype.concat](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
+* [Array.prototype.pop](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+* [Array.prototype.push](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+* [Array.prototype.shift](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/shift)
+* [Array.prototype.unshift](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift)
+* [Array.prototype.slice](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
+* [Array.prototype.splice](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+* [Array.prototype.includes](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
+* [Array.prototype.indexOf](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
+* [Array.prototype.join](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
+* [Array.prototype.reverse](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
+* [Array.prototype.sort](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+* [Array.prototype.lastIndexOf](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf)
+* [Array.prototype.copyWithin](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin)
+* [Array.prototype.fill](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/fill)
 
   **Example:**
 
@@ -448,7 +448,7 @@ Supported functions:
   {{indexof "[1, 2, 3]" 1}} // [1, 2, 3].indexof(1)
   ```
 
-* arrayify
+* [arrayify]()
 
   **Params:**
 
@@ -462,7 +462,7 @@ Supported functions:
   // returns: ['foo']
   ```
 
-* inArray
+* [inArray]()
 
   **Params:**
 
@@ -486,7 +486,7 @@ Supported functions:
   {{inArray}}
   ```
 
-* itemAt
+* [itemAt]()
 
   **Params:**
 
@@ -512,7 +512,7 @@ For iterator Array, you should use [build-in helper ``each``](https://handlebars
 
 #### Json
 
-* stringify
+* [stringify]()
 
   **Params:**
 
@@ -529,7 +529,7 @@ For iterator Array, you should use [build-in helper ``each``](https://handlebars
 
 #### Math
 
-* All build-in functions on Math are support
+* All build-in functions on [Math](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Math) are support
 
   **Example:**
 
@@ -539,7 +539,7 @@ For iterator Array, you should use [build-in helper ``each``](https://handlebars
   // returns: 1
   ```
 
-* add
+* [add]()
   
   **Params:**
 
@@ -562,7 +562,7 @@ For iterator Array, you should use [build-in helper ``each``](https://handlebars
   // returns: '123'
   ```
 
-* subtract
+* [subtract]()
 
   **Params:**
 
@@ -579,7 +579,7 @@ For iterator Array, you should use [build-in helper ``each``](https://handlebars
   // returns: 1
   ```
 
-* multiply
+* [multiply]()
 
   **Params:**
 
@@ -596,7 +596,7 @@ For iterator Array, you should use [build-in helper ``each``](https://handlebars
   // returns: 6
   ```
 
-* divide
+* [divide]()
 
   **Params:**
 
@@ -613,7 +613,7 @@ For iterator Array, you should use [build-in helper ``each``](https://handlebars
   // returns: 1
   ```
 
-* avg
+* [avg]()
 
   **Params:**
 
@@ -632,7 +632,7 @@ For iterator Array, you should use [build-in helper ``each``](https://handlebars
   
 #### Number
 
-* All build-in functions on Number and Number.prototype are support
+* All build-in functions on [Number and Number.prototype](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Number) are support
 
   **Example:**
 
@@ -651,7 +651,7 @@ For iterator Array, you should use [build-in helper ``each``](https://handlebars
   // returns: '1.00'
   ```
 
-* number
+* [number]()
 
   **Params:**
 
@@ -668,7 +668,7 @@ For iterator Array, you should use [build-in helper ``each``](https://handlebars
 
 #### Object
 
-* keys
+* [keys]()
 
   **Params:**
 
@@ -690,7 +690,7 @@ For iterator Array, you should use [build-in helper ``each``](https://handlebars
   // returns: ['a']
   ```
 
-* values
+* [values]()
 
   **Params:**
 
@@ -712,7 +712,7 @@ For iterator Array, you should use [build-in helper ``each``](https://handlebars
   // returns: ['1']
   ```
 
-* entries
+* [entries]()
 
   **Params:**
 
@@ -739,32 +739,32 @@ For iterator Array, you should use [build-in helper ``each``](https://handlebars
 
 Supported functions:
 
-* String.fromCharCode
-* String.fromCodePoint
-* String.raw
-* String.prototype.charAt
-* String.prototype.charCodeAt
-* String.prototype.codePointAt
-* String.prototype.endsWith
-* String.prototype.localeCompare
-* String.prototype.match
-* String.prototype.normalize
-* String.prototype.padEnd
-* String.prototype.padStart
-* String.prototype.repeat
-* String.prototype.replace
-* String.prototype.search
-* String.prototype.split
-* String.prototype.substr
-* String.prototype.substring
-* String.prototype.startsWith
-* String.prototype.trim
-* String.prototype.trimLeft
-* String.prototype.trimRight
-* String.prototype.toLowerCase
-* String.prototype.toUpperCase
-* String.prototype.toLocaleLowerCase
-* String.prototype.toLocaleUpperCase
+* [String.fromCharCode](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode)
+* [String.fromCodePoint](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/fromCodePoint)
+* [String.raw](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/raw)
+* [String.prototype.charAt](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/charAt)
+* [String.prototype.charCodeAt](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt)
+* [String.prototype.codePointAt](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/codePointAt)
+* [String.prototype.endsWith](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith)
+* [String.prototype.localeCompare](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare)
+* [String.prototype.match](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/match)
+* [String.prototype.normalize](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/normalize)
+* [String.prototype.padEnd](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/padEnd)
+* [String.prototype.padStart](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/padStart)
+* [String.prototype.repeat](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/repeat)
+* [String.prototype.replace](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/replace)
+* [String.prototype.search](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/search)
+* [String.prototype.split](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/split)
+* [String.prototype.substr](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/substr)
+* [String.prototype.substring](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/substring)
+* [String.prototype.startsWith](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith)
+* [String.prototype.trim](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/trim)
+* [String.prototype.trimLeft](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/trimLeft)
+* [String.prototype.trimRight](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/trimRight)
+* [String.prototype.toLowerCase](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)
+* [String.prototype.toUpperCase](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase)
+* [String.prototype.toLocaleLowerCase](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/toLocaleLowerCase)
+* [String.prototype.toLocaleUpperCase](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/toLocaleUpperCase)
 
   **Example:**
 
@@ -781,7 +781,7 @@ Supported functions:
   // return 'a'
   ```
 
-* string
+* [string]()
 
   **Params:**
 
