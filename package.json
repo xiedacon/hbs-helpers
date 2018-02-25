@@ -1,6 +1,6 @@
 {
   "name": "hbs-helpers",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Easy way to use and write handerbars helpers.",
   "main": "index.js",
   "scripts": {
