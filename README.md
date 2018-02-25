@@ -13,12 +13,12 @@ Node.js v8.x
 ```js
 const handlebars = require('handlebars')
 
-require('hbs-helpers')({
+require('@xiedacon/hbs-helpers')({
   handlebars: handlebars
 })
 
 // with local helpers
-require('hbs-helpers')({
+require('@xiedacon/hbs-helpers')({
   handlebars: handlebars,
   helpers: {
     greatThenThree: ([n]) => n > 3
@@ -26,7 +26,7 @@ require('hbs-helpers')({
 })
 
 // with alias
-require('hbs-helpers')({
+require('@xiedacon/hbs-helpers')({
   handlebars: handlebars,
   aliases: {
     unlessEq: 'notEq'
